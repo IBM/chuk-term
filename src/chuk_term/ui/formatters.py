@@ -5,6 +5,7 @@ Content formatting utilities.
 Provides consistent formatting for various content types like
 tool calls, errors, JSON, tables, and more.
 """
+
 from __future__ import annotations
 
 import json

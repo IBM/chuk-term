@@ -2,6 +2,7 @@
 """
 Additional tests to improve coverage for UI modules.
 """
+
 from __future__ import annotations
 
 from chuk_term.ui import get_output

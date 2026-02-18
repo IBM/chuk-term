@@ -3,7 +3,7 @@
 A modern terminal library with a powerful CLI interface for building beautiful terminal applications in Python.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Test Coverage](https://img.shields.io/badge/coverage-93%25-brightgreen.svg)](docs/testing/TEST_COVERAGE.md)
 [![Tests](https://img.shields.io/badge/tests-616%20passed-brightgreen.svg)](docs/testing/UNIT_TESTING.md)
 
@@ -411,7 +411,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 

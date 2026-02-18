@@ -4,21 +4,18 @@ build-backend = "hatchling.build"
 
 [project]
 name = "chuk-term"
-version = "0.3"
+version = "0.4"
 description = "A terminal library with CLI interface"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
-authors = [
-    { name = "chris hay", email = "chrishayuk@somejunkmailbox.com" },
-]
+license = {text = "Apache-2.0"}
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Environment :: Console",
     "Intended Audience :: Developers",

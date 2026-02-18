@@ -5,6 +5,7 @@ Centralized output management for MCP CLI.
 This module provides a unified interface for all console output,
 ensuring consistent formatting, colors, and styles across the application.
 """
+
 from __future__ import annotations
 
 import builtins

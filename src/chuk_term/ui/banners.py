@@ -4,6 +4,7 @@ Banner display utilities.
 
 Provides consistent welcome banners and headers for different CLI modes.
 """
+
 from __future__ import annotations
 
 from typing import Any

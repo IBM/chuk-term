@@ -4,6 +4,7 @@ User prompt and interaction utilities.
 
 Provides consistent user input prompts, confirmations, and selections.
 """
+
 from __future__ import annotations
 
 import sys

@@ -2,6 +2,7 @@
 """
 Extended tests for output management to improve coverage.
 """
+
 # ruff: noqa: ARG002
 from __future__ import annotations
 

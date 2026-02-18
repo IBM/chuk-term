@@ -5,6 +5,7 @@ Unified theme system.
 Centralizes all colors, styles, and visual elements for consistent UI appearance.
 Supports theme switching and customization.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

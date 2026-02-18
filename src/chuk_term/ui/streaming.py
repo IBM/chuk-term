@@ -5,6 +5,7 @@ Streaming message support for chuk-term.
 Provides a way to display messages that update in real-time as content streams in,
 then finalize with proper formatting.
 """
+
 from __future__ import annotations
 
 import time

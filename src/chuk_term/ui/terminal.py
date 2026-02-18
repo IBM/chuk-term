@@ -4,6 +4,7 @@ Terminal management utilities.
 
 Handles terminal state, cleanup, and cross-platform terminal operations.
 """
+
 from __future__ import annotations
 
 import asyncio

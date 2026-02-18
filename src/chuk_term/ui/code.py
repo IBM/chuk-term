@@ -5,6 +5,7 @@ Code display and formatting utilities.
 Provides syntax highlighting, diff viewing, and code analysis display
 with automatic theme adaptation.
 """
+
 from __future__ import annotations
 
 from typing import Any
