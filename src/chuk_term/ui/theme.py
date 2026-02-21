@@ -8,7 +8,18 @@ Supports theme switching and customization.
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
+
+
+def _can_encode_unicode() -> bool:
+    """Check if stdout can encode Unicode characters beyond ASCII."""
+    try:
+        encoding = getattr(sys.stdout, "encoding", None) or "ascii"
+        "\u2139".encode(encoding)
+        return True
+    except (UnicodeEncodeError, LookupError):
+        return False
 
 
 @dataclass
@@ -135,7 +146,7 @@ class Theme:
         Returns:
             Icons instance
         """
-        if name == "minimal" or name == "terminal":
+        if name == "minimal" or name == "terminal" or not _can_encode_unicode():
             return MinimalIcons()  # type: ignore[return-value]
         else:
             return Icons()  # Default with emojis
